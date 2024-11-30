@@ -1,0 +1,84 @@
+/* Header styles */
+header {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  color: #005eff;
+}
+
+/* Main content styles */
+.admin-panel {
+  padding: 20px 50px;
+}
+
+.btn-add {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-add:hover {
+  background-color: #218838;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+table th {
+  font-weight: bold;
+}
+
+.edit-link i, .delete-link i {
+  color: #005eff;
+  font-size: 18px;
+}
+
+.edit-link:hover i {
+  color: #0056b3;
+}
+
+.delete-link:hover i {
+  color: #d9534f;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 3px solid black;
+}
