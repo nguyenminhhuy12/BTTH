@@ -15,7 +15,7 @@ class IssueController extends Controller
     public function index()
     {
         //
-        $issues = Issue::with('computer')->paginate(5);
+        $issues = Issue::with('computer')->paginate(10);
         return view('issue.index', compact('issues'));
     }
 
